@@ -10,9 +10,9 @@ const STORAGE_KEY = 'expenseManagerData_v1';
 const DIRECTOR_CATEGORIES = [
   { key: 'hospital_expense', label: '醫院費用', code: null, note: '不編列會計代號，由醫院行政經費支應' },
   { key: 'passthrough',      label: '非主任開銷，另外申請給中心的費用', code: null, note: '主任代為申請／代領，非個人墊付' },
-  { key: 'code_113221T5',    label: '軟體與工具類支出', code: '113221T5' },
-  { key: 'code_113221T3',    label: '審查／登記費用', code: '113221T3' },
-  { key: 'code_11442501',    label: '工具授權（跨年度）', code: '11442501' },
+  { key: 'code_113221T5',    label: '計畫支出', code: '113221T5' },
+  { key: 'code_113221T3',    label: '計畫支出', code: '113221T3' },
+  { key: 'code_11442501',    label: '計畫支出', code: '11442501' },
   { key: 'code_114221CM',    label: '計畫支出', code: '114221CM' },
   { key: 'code_114221EP',    label: '計畫支出', code: '114221EP' },
   { key: 'code_114221T5',    label: '計畫支出', code: '114221T5' },
